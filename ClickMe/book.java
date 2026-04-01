@@ -1,7 +1,8 @@
 // Book.java — MODEL [25 pts]
 // Responsibility: Stores and manages book data.
 // Rule: This class must NEVER reference BookView or BookController.
-public class Book {
+// This file should be renamed to Book.java to match the public class name.
+public class book {
 // TODO (1): Declare three private fields:
 // - title (String)
 // - author (String)
@@ -11,7 +12,7 @@ private String author;
 private int year;
 // TODO (2): Write a constructor that accepts title, author, and year
 // and assigns each to the corresponding field.
-public Book(String title, String author, int year) {
+public book(String title, String author, int year) {
 this.title = title;
 this.author = author;
 this.year = year;

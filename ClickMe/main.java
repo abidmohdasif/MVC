@@ -1,15 +1,15 @@
 // Main.java — ENTRY POINT [20 pts]
 // Responsibility: Creates the three MVC components and wires them together.
 // Run this file to test your complete implementation.
-public class Main {
+public class main {
 public static void main(String[] args) {
 // TODO (1): Create a Book model with:
 // title = "Clean Code"
 // author = "Robert C. Martin"
 // year = 2008
-Book model = new Book("Clean COde", "Robert C. Martin", 2008);
+book model = new book("Clean COde", "Robert C. Martin", 2008);
 // TODO (2): Create a BookView
-BookView view = new BookView();
+bookView view = new bookView();
 // TODO (3): Create a BookController, passing in your Book and BookView
 BookController controller = new BookController(model, view);
 // TODO (4): Call showBook() to display the book's initial details

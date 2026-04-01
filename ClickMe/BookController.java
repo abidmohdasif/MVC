@@ -6,11 +6,11 @@ public class BookController {
 // TODO (1): Declare two private fields:
 // - model (Book)
 // - view (BookView)
-private Book model;
-private BookView view;
+private book model;
+private bookView view;
 // TODO (2): Write a constructor that accepts a Book and a BookView
 // and assigns them to the fields above.
-public BookController(Book model, BookView view) {
+public BookController(book model, bookView view) {
 this.model = model;
 this.view = view;
 }

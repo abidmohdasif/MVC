@@ -2,7 +2,7 @@
 // Responsibility: Handles ALL console output for the application.
 // Rule: This class must contain NO business logic (no if/else, no validation).
 // It only prints what it is given.
-public class BookView {
+public class bookView {
 // TODO (1): Write a method called displayBook that accepts:
 // - title (String)
 // - author (String)
